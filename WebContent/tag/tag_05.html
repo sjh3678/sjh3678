@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>하이퍼링크 태그</h1>
+<h3>a</h3>
+<hr>
+
+<a href="https://www.google.co.kr">구글로 이동</a>
+
+<!-- HTML태그의 속성은 반드시
+
+	속성이름="속성값"
+	
+	의 형식으로 적어야한다 -->
+
+
+<!-- 속성의 값은 문자열로 적어야한다 -->
+<!-- 속성의 값으로 지정할 수 있는 형식은 속성마다 다르다 -->
+<!-- HTML문서에서 문자열은 ""큰따옴표 또는 ''작은따옴표 둘 다 가능하다 -->
+
+<br><br>
+
+<a href="https://www.google.co.kr" target="_blank">구글로 이동 (새 탭)</a>
+<br>
+
+<a href="https://www.google.co.kr" target="_self">구글로 이동 (현재 탭)</a>
+
+<hr>
+
+<div id ="top"><h1>여기가 TOP!!!</h1></div>
+
+<!-- 도메인주소를 포함한 URL을 절대경로URL이라고 한다 -->
+
+<a href="https://www.naver.com/">네이버</a><br>
+
+<a href="https://iei.or.kr/recruit/collaborate.kh">KH - 협력기업List</a>
+
+<hr>
+<!-- 도메인주소를 생략한 URL을 상대경로URL이라고 한다 -->
+<!-- 	-> 현재 도메인주소를 기준점으로 URL경로가 지정된다 -->
+
+<!-- 	-> 같은 사이트 내에서 페이지를 이동할 때 사용한다 -->
+
+<ul>
+	
+	<li><a href="/tag/tag_01.html">하나</a></li>
+	<li><a href="./tag_02.html">둘</a></li>
+	<li><a href="tag_03.html">셋</a></li>
+	<li><a href="../file/mi.jpg">넷</a></li>
+</ul>
+
+<!-- 상대경로 지정 문자 -->
+
+<!-- / : 루트 디렉토리 (WebContent 폴더) -->
+
+<!-- ./ : 현재 디렉토리 -->
+<!-- **파일명으로 시작하면 ./ 와 같다 -->
+
+<!-- ../ : 부모 디렉토리 -->
+
+<hr>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis commodo ultricies. Vivamus faucibus iaculis felis, vel ullamcorper arcu varius non. Etiam pellentesque, enim hendrerit lobortis viverra, nisi tortor lobortis mauris, sit amet interdum dolor quam vitae velit. Mauris id risus elit. Nullam pellentesque mollis ante, sed iaculis arcu ullamcorper et. Proin nec urna eget est gravida molestie. Etiam erat velit, commodo at auctor id, laoreet vel nulla. Maecenas et turpis dolor. Cras sit amet erat vel lacus vehicula elementum.</p>
+
+<p>Mauris posuere eu mauris et imperdiet. Nullam aliquam volutpat est id venenatis. Quisque facilisis arcu vel semper pulvinar. Integer consectetur ligula pretium elit tincidunt, ut molestie risus finibus. Pellentesque venenatis fermentum massa. Mauris posuere, turpis tincidunt mattis feugiat, nunc ex malesuada est, nec elementum tortor turpis in odio. Curabitur magna nulla, dignissim nec viverra porttitor, ornare eget elit. Sed vel ipsum quis augue faucibus malesuada id ac est. Nulla porta, lacus nec tempor faucibus, erat mauris mattis lectus, in finibus velit erat sed est. Curabitur aliquam, lorem consectetur iaculis ornare, nibh nibh aliquet lacus, at venenatis risus libero ac diam. Integer venenatis faucibus enim, a accumsan nunc placerat non. Etiam massa risus, posuere quis pharetra sit amet, facilisis nec eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam at rutrum leo. Etiam metus orci, tincidunt quis urna eu, volutpat eleifend metus.</p>
+
+<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In eleifend gravida sodales. Praesent quis mauris ac dolor sagittis tempus. Suspendisse id lectus magna. Duis sed aliquet enim. Aenean viverra aliquam nunc, vel sodales magna maximus at. Nam efficitur dignissim vulputate. Morbi tempor feugiat massa, id feugiat tellus mattis quis. Duis porttitor augue et lectus tristique, eu rhoncus lorem tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi dignissim ligula eu tortor placerat, eu cursus quam congue. Donec placerat tristique erat ut accumsan. Pellentesque tincidunt mi at augue volutpat, quis dignissim lorem vestibulum. Nulla vulputate viverra tempus. Mauris egestas molestie auctor. Suspendisse facilisis nisi nec quam volutpat, vitae ullamcorper risus euismod.</p>
+
+<p>Cras euismod tortor elementum, luctus ante sit amet, dapibus purus. Proin quis orci nec orci tempus egestas dapibus in urna. Vivamus consectetur dolor et sagittis rhoncus. Vestibulum nunc magna, hendrerit non purus nec, tristique iaculis mi. Sed ipsum tellus, aliquet non pretium eu, pulvinar sit amet arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque viverra tincidunt auctor. Mauris congue blandit consequat. Suspendisse non porta dolor, tincidunt molestie mauris. Nullam aliquam molestie enim, congue egestas augue pulvinar sit amet. Suspendisse pharetra augue nec nunc scelerisque placerat. Vivamus vel lacus porta, pellentesque eros et, venenatis lacus. Suspendisse porttitor semper elit, non tristique nulla faucibus eget. Quisque sed turpis porta, malesuada velit vel, hendrerit nibh.</p>
+
+<p>Cras gravida dui magna, a rhoncus velit sollicitudin sit amet. Proin lobortis eros turpis, sed tempor tellus pellentesque in. Nunc sodales ante arcu, vel pellentesque elit scelerisque gravida. Mauris posuere, erat id tempor interdum, justo enim ultrices magna, a sagittis odio lacus ut arcu. Aenean bibendum ex sit amet vehicula convallis. Curabitur efficitur fringilla commodo. Duis id metus porta risus faucibus dignissim vitae id urna. Proin nec nulla eget augue lobortis scelerisque. Ut vehicula eros lacus, ut pulvinar mi tristique eget. Fusce eleifend, augue id dapibus laoreet, sapien ipsum venenatis sapien, eget hendrerit risus sem a augue. Aliquam erat volutpat. Sed in nibh nec velit vulputate faucibus. Donec finibus neque vel felis feugiat, non rutrum felis volutpat.</p>
+
+
+<a href = "#top">TOP으로</a>
+
+<div id = "bottom"><h1>여기가 BOTTOM!!</h1></div>
+
+<hr>
+
+<!-- href속성값으로 "#"만 지정하면 자기 자신 페이지를 나타낸다 -->
+<!-- 새로고침된다 -->
+<a href="#">자기 자신 페이지</a>
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
